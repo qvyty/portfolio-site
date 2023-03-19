@@ -1,0 +1,338 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+a,
+p,
+span,
+button {
+  letter-spacing: -0.03em;
+}
+
+.section-black {
+  background: #000000;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.main__image {
+  height: 765px;
+  background-image: url("../resources/main.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+/* Блок Навигации */
+
+.navbar {
+  margin-bottom: 261px;
+  padding-top: 33px;
+  display: inline-block;
+  width: 1153px;
+}
+
+.navbar__container {
+  display: inline;
+}
+
+.navbar__logo-box {
+  margin-left: -6px;
+  margin-top: 2px;
+  padding-right: 18px;
+
+  display: inline-block;
+  height: 39px;
+  background-color: #000;
+  border-radius: 100px;
+}
+
+.navbar__logo-link {
+  padding-left: 12px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.11em;
+  font-weight: 700;
+  font-size: 42.41px;
+  color: #1bff07;
+}
+
+.navbar-menu {
+  float: right;
+}
+
+.navbar__link {
+  margin-left: 40px;
+  padding-right: 2px;
+  font-size: 18px;
+  line-height: 23px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbar__link:hover {
+  color: #1bff07;
+}
+
+.main__description {
+  margin-bottom: 26px;
+  width: 430px;
+
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #ffffff;
+}
+
+.main__title {
+  width: 919px;
+  margin-left: -6px;
+  font-size: 80px;
+  line-height: 70px;
+
+  color: #1bff07;
+}
+
+/* Блок ПРОЕКТЫ */
+
+.projects {
+  padding-top: 150px;
+}
+.project__title {
+  margin-bottom: 40px;
+  margin-left: -5px;
+
+  font-size: 55px;
+  line-height: 72px;
+
+  color: #ffffff;
+}
+.project__item {
+  position: relative;
+  width: 1150px;
+  height: 550px;
+  border-radius: 30px;
+}
+
+.project__item-title {
+  position: absolute;
+  left: 50px;
+  top: 410px;
+
+  font-size: 35px;
+  line-height: 46px;
+
+  color: #ffffff;
+}
+
+.project__item-discription {
+  position: absolute;
+  left: 50px;
+  top: 461px;
+  font-size: 30px;
+  line-height: 39px;
+
+  color: #ffffff;
+}
+
+.project__btn {
+  margin-top: 80px;
+  margin-left: -2px;
+  margin-bottom: 150px;
+  width: 582px;
+  height: 153px;
+  font-family: "IBM Plex Mono";
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  border: 1px solid #1bff07;
+  color: #000000;
+
+  background: #1bff07;
+  border-radius: 10px;
+}
+
+.project__btn:hover {
+  color: #1bff07;
+  background: #000;
+}
+
+/* Блок КОМПЕТЕНЦИИ */
+
+.competencies {
+  margin-bottom: 150px;
+}
+
+.competence__item {
+  margin-bottom: 64px;
+}
+
+.competence__title {
+  margin-bottom: 44px;
+  margin-left: -2px;
+  font-size: 55px;
+  line-height: 72px;
+
+  color: #ffffff;
+}
+
+.competence__item-icon {
+  width: 45px;
+  height: 44px;
+  margin-bottom: 12px;
+}
+
+.competence__item-title {
+  margin-bottom: 14px;
+  margin-left: -2px;
+  font-size: 35px;
+  line-height: 46px;
+
+  color: #1bff07;
+}
+
+.competence__descriptions {
+  margin-left: -2px;
+  width: 778px;
+  font-size: 22px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+
+/* Блок УСЛУГИ */
+
+.service__title {
+  margin-bottom: 73px;
+  width: 403px;
+  font-size: 35px;
+  line-height: 46px;
+
+  color: #ffffff;
+}
+
+.service__item {
+  margin-bottom: 71px;
+}
+
+.service__item:nth-child(3) {
+  margin-bottom: 136px;
+}
+
+.service__item:last-child {
+  margin-bottom: 150px;
+}
+
+.service__wrapper {
+  height: 283px;
+  padding: 40px 0 40px 40px;
+  background: #191c19;
+  border-radius: 30px;
+}
+
+.service__item-title {
+  margin-bottom: 15px;
+  font-size: 55px;
+  line-height: 72px;
+
+  color: #1bff07;
+}
+
+.service__item-descriptions {
+  width: 750px;
+  font-size: 22px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+
+/* Блок КОНТАКТЫ */
+
+.contacts {
+  padding-bottom: 150px;
+  width: 100%;
+  background: #000000;
+}
+
+.contact__wrapper {
+  margin: 0 auto;
+  width: 1400px;
+  height: 717px;
+  background: #191c19;
+  border-radius: 30px;
+}
+
+.contact__image {
+  display: inline-block;
+  float: right;
+  border-radius: 30px;
+}
+
+.contact__container {
+  padding-top: 320px;
+  padding-left: 125px;
+}
+
+.contact__title {
+  margin-bottom: 28px;
+  font-size: 35px;
+  line-height: 60px;
+
+  color: #ffffff;
+}
+
+.contact__link {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.contact__link:hover {
+  color: #1bff07;
+}
+
+/* Блок ФУТЕР */
+
+.footer__wrapper {
+  padding-top: 76px;
+  height: 223px;
+  background: #ffffff;
+  border-radius: 30px 30px 0 0;
+}
+
+.footer__title {
+  margin-bottom: 66px;
+  font-family: "Manrope";
+  font-size: 22px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.footer__description {
+  font-family: "Manrope";
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #000000;
+
+  opacity: 0.5;
+}
